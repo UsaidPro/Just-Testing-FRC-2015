@@ -51,13 +51,13 @@ public class Robot extends IterativeRobot
     	joy = new Joystick(0);
     	com = new Compressor();
     	sol = new Solenoid(0);
-    	sol2 = new Solenoid(4);
+    	sol2 = new Solenoid(1);
 		oi = new OI();
-		rightDriveMotor = new CANTalon(2);
-		leftDriveMotor  = new CANTalon(3);
-		LiftMotor  = new CANTalon(4);
-		RightFlywheel  = new CANTalon(5);
-		LeftFlywheel  = new CANTalon(6);
+		rightDriveMotor = new CANTalon(4); //Rightmotor in port 4
+		leftDriveMotor  = new CANTalon(5); //Leftmotor in port 5
+		LiftMotor  = new CANTalon(3);		//Liftmotor in port 3
+		RightFlywheel  = new CANTalon(2);	//Rightflywheel in port 2
+		LeftFlywheel  = new CANTalon(1);	//Leftflywheel in port 1
     	Robots = new RobotDrive(leftDriveMotor, rightDriveMotor);
     	
 		
