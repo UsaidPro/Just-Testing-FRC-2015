@@ -26,7 +26,6 @@ import org.usfirst.frc.team5431.robot.subsystems.ExampleSubsystem;
  */
 public class Robot extends IterativeRobot 
 {
-
 	public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
 	public static OI oi;
 	Joystick joy;
